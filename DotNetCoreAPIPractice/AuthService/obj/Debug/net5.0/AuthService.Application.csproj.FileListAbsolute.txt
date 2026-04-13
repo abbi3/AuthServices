@@ -1,0 +1,15 @@
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\bin\Debug\net5.0\AuthService.Application.deps.json
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\bin\Debug\net5.0\AuthService.Application.dll
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\bin\Debug\net5.0\ref\AuthService.Application.dll
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\bin\Debug\net5.0\AuthService.Application.pdb
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\bin\Debug\net5.0\AuthService.Domain.dll
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\bin\Debug\net5.0\AuthService.Domain.pdb
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\obj\Debug\net5.0\AuthService.Application.csproj.AssemblyReference.cache
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\obj\Debug\net5.0\AuthService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\obj\Debug\net5.0\AuthService.Application.AssemblyInfoInputs.cache
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\obj\Debug\net5.0\AuthService.Application.AssemblyInfo.cs
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\obj\Debug\net5.0\AuthService.Application.csproj.CoreCompileInputs.cache
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\obj\Debug\net5.0\AuthService.Application.csproj.CopyComplete
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\obj\Debug\net5.0\AuthService.Application.dll
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\obj\Debug\net5.0\ref\AuthService.Application.dll
+C:\Users\abbas.jamali\source\repos\DotNetCoreAPIPractice\AuthService\obj\Debug\net5.0\AuthService.Application.pdb
