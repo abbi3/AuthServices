@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "BCrypt.Net-Next/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/BCrypt.Net-Next.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -1513,6 +1522,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "AuthService.Application": "1.0.0",
+          "BCrypt.Net-Next": "4.1.0",
           "Microsoft.EntityFrameworkCore": "5.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0"
         },
@@ -1526,6 +1536,35 @@
     }
   },
   "libraries": {
+    "BCrypt.Net-Next/4.1.0": {
+      "sha512": "5YT3DKllmtkyW68PjURu/V1TOe4MKiByKwsRNVcfYE1S5KuFTeozdmKzyNzolKiQF391OXCaQtINvYT3j1ERzQ==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.1.0.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net10.0/BCrypt.Net-Next.dll",
+        "lib/net10.0/BCrypt.Net-Next.xml",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
+      ]
+    },
     "Humanizer.Core/2.8.26": {
       "sha512": "OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "type": "package",
@@ -5600,6 +5639,7 @@
     "net5.0": [
       "AuthService.Application >= 1.0.0",
       "AuthService.Infrastructure >= 1.0.0",
+      "BCrypt.Net-Next >= 4.1.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
@@ -5612,11 +5652,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\AuthService.csproj",
+      "projectUniqueName": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\AuthService.csproj",
       "projectName": "AuthService",
-      "projectPath": "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\AuthService.csproj",
+      "projectPath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\AuthService.csproj",
       "packagesPath": "C:\\Users\\abbas.jamali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\obj\\",
+      "outputPath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\abbas.jamali\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5633,11 +5673,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj"
+            "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj": {
+              "projectPath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj"
             },
-            "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\AuthService\\AuthService.Application.csproj": {
-              "projectPath": "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\AuthService\\AuthService.Application.csproj"
+            "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\AuthService\\AuthService.Application.csproj": {
+              "projectPath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\AuthService\\AuthService.Application.csproj"
             }
           }
         }
@@ -5652,6 +5692,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[5.0.0, )"

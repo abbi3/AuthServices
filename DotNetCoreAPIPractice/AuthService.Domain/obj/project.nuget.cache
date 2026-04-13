@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+91njyJC0Gbu/QmrwSH0uxdZZ+U21NIXMTrj9ZQKwSd22pirIHiFcO93TTJwASGyDq8hPJA+OLbzlBlNJIQJYQ==",
+  "dgSpecHash": "vtnaiOx2S3U0ALqei7aNagJ7N8duIkZ6azbfoR3st0wLPxIFu954xRCzeTSifd4/ujOA0pN+ewmMLzGBsDncPw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\AuthService.Domain\\AuthService.Domain.csproj",
+  "projectFilePath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\AuthService.Domain\\AuthService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
