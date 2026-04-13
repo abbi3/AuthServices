@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i7PW8761xPZPMxRqbWjJQpY2meJezC43kg32RPJ3ImwteDixhrz27dumRSKS+9pixbSTZMdROHdC675iR9LnSg==",
+  "dgSpecHash": "dCByJ3+iQ1WcyeyGfROSANjiscPZVUzc9xMSfsg8q+rGBTX51TNJr++6rTy/2VYnRbyRcDWlU+f4g6sgbAQGUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj",
+  "projectFilePath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\AuthService.Infrastructure\\AuthService.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\abbas.jamali\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

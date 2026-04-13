@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using AuthService.Application.DTOs;
 using AuthService.Application.Interface;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AuthService.Controller
 {
@@ -20,6 +21,27 @@ namespace AuthService.Controller
             var token = await _authService.Login(request);
             return Ok(new { Token = token });
         }
+        [HttpPost("register")]
+        public async Task<IActionResult> Register(RegisterRequest request)
+        {
+            var result = await _authService.Register(request);
+            return Ok(new { Message = result });
+        }
 
+        //Admin
+        [Authorize(Roles = "Admin")]
+        [HttpGet("admin-only")]
+        public IActionResult GetAdminData()
+        {
+            return Ok("This is Admin data");
+        }
+
+        //User
+        [Authorize]
+        [HttpGet("profile")]
+        public IActionResult GetProfile()
+        {
+            return Ok("User profile");
+        }
     }
 }

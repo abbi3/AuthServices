@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kqpFqVWDJGG++FdKNACGgv08QH325Z0BX/JRib1GXx1MmmNtyTumFh5fiFO9yatb2cvsLZSs9YisxLSpW/wf+w==",
+  "dgSpecHash": "2FmmGeqDhGyJKAlhFHk0uYQ5k8kwtzMKykC01HPbOXjGWQBIDX5/kiQkBEgvSw7QXoymGRyNB+UzAMbn4mAuzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abbas.jamali\\source\\repos\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\AuthService.csproj",
+  "projectFilePath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\AuthService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\abbas.jamali\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
