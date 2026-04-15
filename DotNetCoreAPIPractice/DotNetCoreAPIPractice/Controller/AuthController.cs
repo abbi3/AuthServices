@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using AuthService.Application.DTOs;
 using AuthService.Application.Interface;
 using Microsoft.AspNetCore.Authorization;
+using System;
 
 namespace AuthService.Controller
 {
@@ -33,7 +34,7 @@ namespace AuthService.Controller
         [HttpGet("admin-only")]
         public IActionResult GetAdminData()
         {
-            return Ok("This is Admin data");
+            return Ok("This id Admin has Admin Access ");
         }
 
         //User
@@ -42,6 +43,19 @@ namespace AuthService.Controller
         public IActionResult GetProfile()
         {
             return Ok("User profile");
+        }
+        
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> RefreshToken(string refreshToken)
+        {
+            var user = await _authService.GetUserByRefreshToken(refreshToken);
+
+            if (user == null || user.RefreshTokenExpiryTime <= DateTime.Now)
+                return Unauthorized("Invalid refresh token");
+
+            var newToken = _authService.GenerateNewToken(user);
+
+            return Ok(newToken);
         }
     }
 }

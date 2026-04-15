@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService", "DotNetCoreAPIPractice\AuthService.csproj", "{6019F98B-C13E-4F39-886A-43F5A90F53FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService", "DotNetCoreAPIPractice\AuthService.csproj", "{6019F98B-C13E-4F39-886A-43F5A90F53FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Application", "AuthService\AuthService.Application.csproj", "{40C32256-E738-4D4C-9658-1162D47CDF5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService.Application", "AuthService\AuthService.Application.csproj", "{40C32256-E738-4D4C-9658-1162D47CDF5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Domain", "AuthService.Domain\AuthService.Domain.csproj", "{0EB94C8E-677F-4403-AC52-3532F232AB67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService.Domain", "AuthService.Domain\AuthService.Domain.csproj", "{0EB94C8E-677F-4403-AC52-3532F232AB67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Infrastructure", "AuthService.Infrastructure\AuthService.Infrastructure.csproj", "{8EB05C16-E0C6-4EE2-8F4C-5474DED6FDE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthService.Infrastructure", "AuthService.Infrastructure\AuthService.Infrastructure.csproj", "{8EB05C16-E0C6-4EE2-8F4C-5474DED6FDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Tests", "AuthService.Tests\AuthService.Tests.csproj", "{9E46E09E-80A4-4DAD-BF4D-C8DB693823D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{8EB05C16-E0C6-4EE2-8F4C-5474DED6FDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB05C16-E0C6-4EE2-8F4C-5474DED6FDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB05C16-E0C6-4EE2-8F4C-5474DED6FDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E46E09E-80A4-4DAD-BF4D-C8DB693823D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E46E09E-80A4-4DAD-BF4D-C8DB693823D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E46E09E-80A4-4DAD-BF4D-C8DB693823D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E46E09E-80A4-4DAD-BF4D-C8DB693823D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

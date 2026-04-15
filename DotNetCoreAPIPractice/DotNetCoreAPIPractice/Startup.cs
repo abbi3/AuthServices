@@ -9,6 +9,8 @@ using AuthService.Application.Interface;
 using Microsoft.OpenApi.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using AuthService.Infrastructure.Services;
+using AutoMapper;
 
 namespace AuthService
 {
@@ -24,8 +26,12 @@ namespace AuthService
         {
             services.AddDbContext<AuthDBContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
+            
+            services.AddScoped<IAuthService, AuthService.Infrastructure.Services.AuthService>();
             services.AddControllers();
+            services.AddAutoMapper(typeof(Startup));
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<ITeamService, TeamServices>();
 
             // 🔥 JWT Authentication
             services.AddAuthentication("Bearer")
@@ -95,7 +101,7 @@ namespace AuthService
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseMiddleware<AuthService.Middleware.ExceptionMiddleware>();
             // 🔥 Correct Order (VERY IMPORTANT)
             app.UseAuthentication();
             app.UseAuthorization();

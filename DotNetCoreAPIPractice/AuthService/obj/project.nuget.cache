@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KcRx+wdOIutksPJMW0ZZZytvdADyjJTBdR/G2E6pZUSiLvvE9rEViwwAYu+x3pR4VEhB8JBoDgtowUlXjK8n4g==",
+  "dgSpecHash": "azNtzkk4pn38qdZ+ouxlzEUN5Lpj4MsMuJLoc+MsN4+6Pg2MDbSRI068uXzTKCANEEFdbAr6kJoNFd3buy2aIQ==",
   "success": true,
   "projectFilePath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\AuthService\\AuthService.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\abbas.jamali\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
+    "C:\\Users\\abbas.jamali\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\5.0.1\\automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\abbas.jamali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "C:\\Users\\abbas.jamali\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

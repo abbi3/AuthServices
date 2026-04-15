@@ -23,10 +23,9 @@ namespace AuthService.Infrastructure.Services
             _context = context;
             _config = config;
         }
-        public async Task<string> Login(LoginRequest request)
+        public async Task<object> Login(LoginRequest request)
         {
-            var user = await _context.Users
-                .FirstOrDefaultAsync(x => x.Username == request.Username);
+            var user = await _context.Users.FirstOrDefaultAsync(x => x.Username.ToLower() == request.Username.ToLower());
 
             if (user == null)
                 throw new Exception("User not found");
@@ -34,16 +33,36 @@ namespace AuthService.Infrastructure.Services
             if (!BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
                 throw new Exception("Invalid password");
 
-            // Token logic will come next step
+            // 🔥 Generate JWT
             var claims = new[]
             {
                 new Claim(ClaimTypes.Name, user.Username),
                 new Claim(ClaimTypes.Role, user.role)
             };
-            var Key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-            var creds = new SigningCredentials(Key, SecurityAlgorithms.HmacSha256);
-            var token = new JwtSecurityToken( issuer: _config["Jwt:Issuer"],audience: _config["Jwt:Audience"],claims: claims,expires: DateTime.Now.AddMinutes(Convert.ToDouble(_config["Jwt:DurationInMinutes"])),signingCredentials: creds);
-            return new JwtSecurityTokenHandler().WriteToken(token);
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _config["Jwt:Issuer"],
+                audience: _config["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(15),
+                signingCredentials: creds);
+
+            var accessToken = new JwtSecurityTokenHandler().WriteToken(token);
+
+            // 🔥 Generate Refresh Token
+            var refreshToken = Guid.NewGuid().ToString();
+
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpiryTime = DateTime.Now.AddDays(7);
+            await _context.SaveChangesAsync();
+            return new
+            {
+                accessToken,
+                refreshToken
+            };
         }
         public async Task<string> Register(RegisterRequest request)
         {
@@ -72,5 +91,36 @@ namespace AuthService.Infrastructure.Services
 
             return "User registered successfully";
         }
-    }    
-}
+        public async Task<User> GetUserByRefreshToken(string refreshToken)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(x => x.RefreshToken == refreshToken);
+        }
+
+        public object GenerateNewToken(User user)
+        {
+            var claims = new[]
+            {
+        new Claim(ClaimTypes.Name, user.Username),
+        new Claim(ClaimTypes.Role, user.role)
+    };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _config["Jwt:Issuer"],
+                audience: _config["Jwt:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(15),
+                signingCredentials: creds);
+
+            return new
+            {
+                accessToken = new JwtSecurityTokenHandler().WriteToken(token)
+            };
+        }
+
+    }
+}    
+

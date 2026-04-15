@@ -8,5 +8,7 @@ namespace AuthService.Domain
         public string Username { get; set; }
         public string PasswordHash { get; set; }
         public string role { get; set; }
+        public string RefreshToken { get; set; }
+        public DateTime RefreshTokenExpiryTime { get; set; }
     }
 }

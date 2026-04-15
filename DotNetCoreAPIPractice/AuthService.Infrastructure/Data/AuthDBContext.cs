@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using AuthService.Domain;
+using AuthService.Domain.Entities;
 
 namespace AuthService.Infrastructure.Data
 {
@@ -21,6 +22,9 @@ namespace AuthService.Infrastructure.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Team> Teams { get; set; }
+
 
     }
 }
