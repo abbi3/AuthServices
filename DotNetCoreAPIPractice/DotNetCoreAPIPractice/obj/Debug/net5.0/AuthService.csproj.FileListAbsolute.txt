@@ -71,8 +71,11 @@ D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\AuthService.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\ref\AuthService.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\AuthService.pdb
+<<<<<<< HEAD
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\AutoMapper.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\BCrypt.Net-Next.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Humanizer.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -82,7 +85,10 @@ D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+<<<<<<< HEAD
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.Identity.Client.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
@@ -90,6 +96,7 @@ D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Microsoft.OpenApi.dll
+<<<<<<< HEAD
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Serilog.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Serilog.AspNetCore.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Serilog.Extensions.Hosting.dll
@@ -99,6 +106,8 @@ D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Serilog.Sinks.File.dll
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\DotNetCoreAPIPractice\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll

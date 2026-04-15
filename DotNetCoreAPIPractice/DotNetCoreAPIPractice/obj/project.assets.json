@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
+<<<<<<< HEAD
       "AutoMapper/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -27,6 +28,8 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
       "BCrypt.Net-Next/4.1.0": {
         "type": "package",
         "compile": {
@@ -1781,6 +1784,7 @@
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "AutoMapper/7.0.1": {
       "sha512": "6xHbhsW09sWjjYuE1sqhYn25PQzB6UEUVPME5uhlaIz2NR2+L3+FGbVxvknJKug1BLp6VTLxDb5RcGXKMm0ieQ==",
       "type": "package",
@@ -1817,6 +1821,8 @@
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.pdb"
       ]
     },
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
     "BCrypt.Net-Next/4.1.0": {
       "sha512": "5YT3DKllmtkyW68PjURu/V1TOe4MKiByKwsRNVcfYE1S5KuFTeozdmKzyNzolKiQF391OXCaQtINvYT3j1ERzQ==",
       "type": "package",

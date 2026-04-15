@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "azNtzkk4pn38qdZ+ouxlzEUN5Lpj4MsMuJLoc+MsN4+6Pg2MDbSRI068uXzTKCANEEFdbAr6kJoNFd3buy2aIQ==",
   "success": true,
   "projectFilePath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\AuthService\\AuthService.Application.csproj",
@@ -9,5 +10,11 @@
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "KcRx+wdOIutksPJMW0ZZZytvdADyjJTBdR/G2E6pZUSiLvvE9rEViwwAYu+x3pR4VEhB8JBoDgtowUlXjK8n4g==",
+  "success": true,
+  "projectFilePath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\AuthService\\AuthService.Application.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
   "logs": []
 }

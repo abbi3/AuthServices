@@ -25,6 +25,5 @@ namespace AuthService.Infrastructure.Data
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Team> Teams { get; set; }
 
-
     }
 }

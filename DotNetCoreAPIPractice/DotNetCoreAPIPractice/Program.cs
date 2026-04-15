@@ -20,6 +20,7 @@ namespace AuthService
             .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day)
             .CreateLogger();
             CreateHostBuilder(args).Build().Run();
+<<<<<<< HEAD
             try
             {
                 Log.Information("Starting application");
@@ -34,6 +35,8 @@ namespace AuthService
             {
                 Log.CloseAndFlush();
             }
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
         }
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)

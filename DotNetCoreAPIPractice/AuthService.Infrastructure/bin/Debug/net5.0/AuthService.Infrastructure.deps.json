@@ -18,6 +18,7 @@
           "AuthService.Infrastructure.dll": {}
         }
       },
+<<<<<<< HEAD
       "AutoMapper/7.0.1": {
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -41,6 +42,8 @@
           }
         }
       },
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
       "BCrypt.Net-Next/4.1.0": {
         "runtime": {
           "lib/netstandard2.1/BCrypt.Net-Next.dll": {
@@ -1111,6 +1114,7 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
     "AutoMapper/7.0.1": {
       "type": "package",
       "serviceable": true,
@@ -1125,6 +1129,8 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/5.0.1",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512"
     },
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
     "BCrypt.Net-Next/4.1.0": {
       "type": "package",
       "serviceable": true,

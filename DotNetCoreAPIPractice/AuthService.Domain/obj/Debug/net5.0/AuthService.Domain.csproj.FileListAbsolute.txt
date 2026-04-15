@@ -14,7 +14,10 @@ D:\Abbas\Practice_Project\DotNetCoreAPIPractice\AuthService.Domain\bin\Debug\net
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\AuthService.Domain\bin\Debug\net5.0\AuthService.Domain.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\AuthService.Domain\bin\Debug\net5.0\ref\AuthService.Domain.dll
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\AuthService.Domain\bin\Debug\net5.0\AuthService.Domain.pdb
+<<<<<<< HEAD
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\AuthService.Domain\obj\Debug\net5.0\AuthService.Domain.csproj.AssemblyReference.cache
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\AuthService.Domain\obj\Debug\net5.0\AuthService.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\AuthService.Domain\obj\Debug\net5.0\AuthService.Domain.AssemblyInfoInputs.cache
 D:\Abbas\Practice_Project\DotNetCoreAPIPractice\AuthService.Domain\obj\Debug\net5.0\AuthService.Domain.AssemblyInfo.cs

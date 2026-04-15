@@ -1,11 +1,18 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "4oUkh+3OaFS+81KlOiv1fGAURHa8LN3Nrl0Tf7pCd+zXr/DkfMjPhWHAf6EFmSm4zyzlI1rFa364ZACkBq7K5w==",
   "success": true,
   "projectFilePath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\AuthService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\5.0.1\\automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512",
+=======
+  "dgSpecHash": "2FmmGeqDhGyJKAlhFHk0uYQ5k8kwtzMKykC01HPbOXjGWQBIDX5/kiQkBEgvSw7QXoymGRyNB+UzAMbn4mAuzA==",
+  "success": true,
+  "projectFilePath": "D:\\Abbas\\Practice_Project\\DotNetCoreAPIPractice\\DotNetCoreAPIPractice\\AuthService.csproj",
+  "expectedPackageFiles": [
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\abbas.jamali\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",

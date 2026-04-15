@@ -38,6 +38,7 @@ namespace AuthService.Infrastructure.Services
             {
                 new Claim(ClaimTypes.Name, user.Username),
                 new Claim(ClaimTypes.Role, user.role)
+<<<<<<< HEAD
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
@@ -62,6 +63,8 @@ namespace AuthService.Infrastructure.Services
             {
                 accessToken,
                 refreshToken
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
             };
         }
         public async Task<string> Register(RegisterRequest request)
@@ -91,6 +94,7 @@ namespace AuthService.Infrastructure.Services
 
             return "User registered successfully";
         }
+<<<<<<< HEAD
         public async Task<User> GetUserByRefreshToken(string refreshToken)
         {
             return await _context.Users
@@ -124,3 +128,7 @@ namespace AuthService.Infrastructure.Services
     }
 }    
 
+=======
+    }    
+}
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78

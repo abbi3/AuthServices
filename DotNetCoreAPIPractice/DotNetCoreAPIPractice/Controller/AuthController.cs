@@ -3,7 +3,10 @@ using System.Threading.Tasks;
 using AuthService.Application.DTOs;
 using AuthService.Application.Interface;
 using Microsoft.AspNetCore.Authorization;
+<<<<<<< HEAD
 using System;
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
 
 namespace AuthService.Controller
 {
@@ -34,7 +37,11 @@ namespace AuthService.Controller
         [HttpGet("admin-only")]
         public IActionResult GetAdminData()
         {
+<<<<<<< HEAD
             return Ok("This id Admin has Admin Access ");
+=======
+            return Ok("This is Admin data");
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
         }
 
         //User
@@ -44,6 +51,7 @@ namespace AuthService.Controller
         {
             return Ok("User profile");
         }
+<<<<<<< HEAD
         
         [HttpPost("refresh-token")]
         public async Task<IActionResult> RefreshToken(string refreshToken)
@@ -57,5 +65,7 @@ namespace AuthService.Controller
 
             return Ok(newToken);
         }
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
     }
 }

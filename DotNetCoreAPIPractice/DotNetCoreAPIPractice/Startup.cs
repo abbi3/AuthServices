@@ -9,8 +9,11 @@ using AuthService.Application.Interface;
 using Microsoft.OpenApi.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+<<<<<<< HEAD
 using AuthService.Infrastructure.Services;
 using AutoMapper;
+=======
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
 
 namespace AuthService
 {
@@ -26,6 +29,7 @@ namespace AuthService
         {
             services.AddDbContext<AuthDBContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+<<<<<<< HEAD
             
             services.AddScoped<IAuthService, AuthService.Infrastructure.Services.AuthService>();
             services.AddControllers();
@@ -54,6 +58,32 @@ namespace AuthService
             services.AddAuthorization();
 
             services.AddScoped<IAuthService, AuthService.Infrastructure.Services.AuthService>();
+=======
+
+            services.AddControllers();
+
+            // 🔥 JWT Authentication
+            services.AddAuthentication("Bearer")
+                .AddJwtBearer("Bearer", options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+
+                        ValidIssuer = Configuration["Jwt:Issuer"],
+                        ValidAudience = Configuration["Jwt:Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(
+                            Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+                    };
+                });
+
+            services.AddAuthorization();
+
+            services.AddScoped<IAuthService, AuthService.Infrastructure.Services.AuthService>();
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
 
             // 🔥 Swagger with JWT support
             services.AddSwaggerGen(c =>
@@ -101,7 +131,11 @@ namespace AuthService
             app.UseHttpsRedirection();
 
             app.UseRouting();
+<<<<<<< HEAD
             app.UseMiddleware<AuthService.Middleware.ExceptionMiddleware>();
+=======
+
+>>>>>>> 747e248aae7ae30a8fa30ea97bf166d4ddc85a78
             // 🔥 Correct Order (VERY IMPORTANT)
             app.UseAuthentication();
             app.UseAuthorization();
